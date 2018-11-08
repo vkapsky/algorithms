@@ -1,7 +1,5 @@
 package lab6;
 
-import java.util.Random;
-
 public class Road {
     public int firstHouse;
     public int secondHouse;
@@ -25,15 +23,15 @@ public class Road {
         return length;
     }
 
-    public void setFirstHouse() {
+    public void setFirstHouse(int firstHouse) {
         this.firstHouse = firstHouse;
     }
 
-    public void setSecondHouse() {
+    public void setSecondHouse(int secondHouse) {
         this.secondHouse = secondHouse;
     }
 
-    public void setLength() {
-        this.length = 1 +length;
+    public void setLength(int length) {
+        this.length = length;
     }
 }
